@@ -20,4 +20,4 @@ jquery-tips-消息提醒(多消息版)
     width:360,					//消息框宽
     remark:"",					//备注信息
     cbtype:"",					//触发回调的方式，auto、click、all、空,空不调用
-    cbfun:function(){}			//回调
+    cbfun:function(idx){}		//回调,参数为当前的消息索引
